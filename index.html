@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits & Vegetables Website </title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Box Icon -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Background img -->
+    <style>    
+        body{
+            background-image: url(img/Bd\ img\ 5.jfif);
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+            background-size: 100% 100%;
+            
+        } 
+    </style>
+
+    <!-- Chatgpt code for highlight -->
+     <style>
+        .navbar {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar li {
+            margin: 0 10px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .navbar .active {
+            font-weight: bold;
+            color: #3cb815; /* You can change this to whatever highlight style you prefer */
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Navbar start -->
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-store'></i>Green Grocer's</a>
+    <!-- Menu icon -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+    <!-- Nav List -->
+     <ul class="navbar">
+        <li><a href="#home" class="home-action">Home</a></li>
+        <li><a href="#Categories">Categories</a></li>
+        <li><a href="#Products" class="products-action">Products</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Customers">Customers</a></li>
+    
+     </ul>
+         
+     <!-- Profile -->   
+      <div class="profile">
+        <img src="image/Profile pic 1.jfif" alt="">
+        <span>M Tahir Shabbir</span>
+        <i class='bx bx-caret-down'></i>
+      </div>
+    </header>
+    <!-- Navbar end -->
+  
+    <!-- Home start -->
+     <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>We are Green Grocer's</span>
+                    <h1>Choose Green<br>Grocer's <br> The Best Healthy <br>Mix Salad</h1>
+                    <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt' ></i></a>
+                </div>
+                <img src="image/home 1.jfif" alt="">
+
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>We are Green Grocer's</span>
+                    <h1>Choose Green<br>Grocer's <br> The Best Healthy <br>Mix Salad</h1>
+                    <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt' ></i></a>
+                </div>
+                <img src="image/home2.jfif" alt="">
+
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>We are Green Grocer's</span>
+                    <h1>Choose Green<br>Grocer's <br> The Best Healthy <br>Mix Salad</h1>
+                    <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt' ></i></a>
+                </div>
+                <img src="image/home 1.jfif" alt="">
+
+            </div>
+            
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+         
+     </section>
+    <!-- Home end -->
+
+    <!-- Categories start -->
+      <section class="Categories" id="Categories">
+        <div class="heading">
+            <h1>Browse Our Hottest <br><span>Categories</span></h1>
+            <a href="#" class="btn">See All<i class='bx bx-right-arrow-alt' ></i></a>
+        </div>
+        <!-- Container Content -->
+         <div class="Categories-contaner">
+            <!-- Box 1 -->
+            <div class="box box1">
+                <img src="img/cate1.png" alt="">
+                <h2>Fruits</h2>
+                <span>22 items</span>
+                <i class='bx bx-right-arrow-alt' ></i>
+            </div>
+             <!-- Box 2 -->
+             <div class="box box2">
+                <img src="image/cate15.png" alt="">
+                <h2>Vegetables</h2>
+                <span>22 items</span>
+                <i class='bx bx-right-arrow-alt' ></i>
+            </div>
+             <!-- Box 3 -->
+             <div class="box box3">
+                <img src="img/cate17.png" alt="">
+                <h2>Drinks</h2>
+                <span>22 items</span>
+                <i class='bx bx-right-arrow-alt' ></i>
+            </div>
+            <!-- Box 4 -->
+            <div class="box box4">
+                <img src="img/cate18.png" alt="">
+                <h2>Spices</h2>
+                <span>22 items</span>
+                <i class='bx bx-right-arrow-alt' ></i>
+            </div>
+            <!-- Box 5 -->
+            <div class="box box1">
+                <img src="img/cate1.png" alt="">
+                <h2>Fruits</h2>
+                <span>22 items</span>
+                <i class='bx bx-right-arrow-alt' ></i>
+            </div>
+             <!-- Box 6 -->
+             <div class="box box2">
+                <img src="image/cate15.png" alt="">
+                <h2>Vegetables</h2>
+                <span>22 items</span>
+                <i class='bx bx-right-arrow-alt' ></i>
+            </div>
+         </div>
+      </section>
+    <!-- Categories end -->
+
+    <!-- Products start -->
+       <section class="Products" id="Products">
+        <div class="heading">
+            <h1> Our Popular <br><span>Products</span></h1>
+            <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt' ></i></a>
+        </div>
+        <!-- Product Content -->
+         <div class="product-container">
+            <!-- Box 1 -->
+            <div class="box">
+                <img src="image/cate2.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br>fruits 250g</h2>
+                <h3 class="price">$7 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <img src="image/cate4.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br>fruits 250g</h2>
+                <h3 class="price">$7 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <img src="image/cate6.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br>fruits 250g</h2>
+                <h3 class="price">$7 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+            <!-- Box 4 -->
+            <div class="box">
+                <img src="image/cate7.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br>fruits 250g</h2>
+                <h3 class="price">$7 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+            <!-- Box 5 -->
+            <div class="box">
+                <img src="image/cate10.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br>fruits 250g</h2>
+                <h3 class="price">$7 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+            <!-- Box 6 -->
+            <div class="box">
+                <img src="image/cate12.png" alt="">
+                <span>Fresh Items</span>
+                <h2>Farm fresh organic <br>fruits 250g</h2>
+                <h3 class="price">$7 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+         </div>
+       </section>
+    <!-- Products end -->
+
+    <!-- About start -->
+        <section class="About" id="About">
+            <img src="img/cate19.png" alt="">
+            <div class="about-text">
+                <span><h2>About Us</h2></span>
+                <p>At Green Grocer's, we are committed to bringing you the freshest, 
+                highest-quality fruits and vegetables. Founded with a passion for healthy
+                living and sustainable farming, our store offers a wide selection of organic
+                and locally-sourced produce. We believe in supporting local farmers and
+                providing our customers with nutritious options that contribute to a balanced
+                lifestyle. Whether you're looking for seasonal fruits, everyday vegetables,
+                or specialty items, Green Grocer's is your go-to destination for all things
+                fresh and wholesome.</p>
+                <p>Join us in our mission to promote health and wellness,
+                one delicious bite at a time.</p>
+                <a href="#" class="btn">Learn More<i class='bx bx-right-arrow-alt' ></i></a>
+            </div>
+        </section>
+    <!-- About end -->
+
+    <!-- Customers start -->
+         <section class="Customers" id="Customers">
+            <h2>Why Customer's Love Us</h2>
+            <!-- Customers Content -->
+             <div class="Customer-container">
+                <!-- Review 1 -->
+                <div class="box">
+                    <i class='bx bxs-quote-alt-left' ></i>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <p>"Green Grocer's always has the freshest produce!
+                    I love shopping here for my family's fruits and veggies."</p>
+                    <div class="review-profile">
+                        <img src="image/Profile pic 1.jfif" alt="">
+                        <h3>Mr. Smith</h3>
+                    </div>
+                </div>
+                  <!-- Review 2 -->
+                  <div class="box">
+                    <i class='bx bxs-quote-alt-left' ></i>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <p>"The quality and variety of fruits and vegetables at
+                    Green Grocer's are unmatched. Highly recommend!"</p>
+                    <div class="review-profile">
+                        <img src="image/Profile pic 2.jfif" alt="">
+                        <h3>Mrs. Smith</h3>
+                    </div>
+                </div>
+                  <!-- Review 3 -->
+                  <div class="box">
+                    <i class='bx bxs-quote-alt-left' ></i>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <p>"Green Grocer's has become my go-to store for fresh fruits 
+                    and vegetables. The quality is consistently excellent."</p>
+                    <div class="review-profile">
+                        <img src="image/Profile pic 3.jfif" alt="">
+                        <h3>Mr. John</h3>
+                    </div>
+                </div>
+             </div>
+         </section>
+    <!-- Customers end -->
+
+    <!-- Footer start -->
+          <section class="Footer" id="Footer"> 
+         <!-- The footer-container class is from Chatgpt -->   
+        <div class="footer-container">
+
+            <div class="footer-box">
+                <a href="#" class="logo"><i class='bx bxs-basket'></i>Green Grocer's</a>
+                <p>14 D، Main Ferozpur Road,<br> Block L Gulberg III,<br> Lahore, Punjab</p>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+                </div>
+                <div class="footer-box">
+                    <h2>Categories</h2>
+                    <a href="#">Fruits & Vegetables</a>
+                    <a href="#">Daily Products</a>
+                    <a href="#">Package Food</a>
+                    <a href="#">Bevarages</a>
+                </div>
+                <div class="footer-box">
+                    <h2>Useful Links</h2>
+                    <a href="#">Payment & Tax</a>
+                    <a href="#">Terms Of Use</a>
+                    <a href="#">My Blog</a>
+                    <a href="#">Return Policy</a>
+                </div>
+                <div class="footer-box">
+                    <h2>NewsLetter</h2>
+                   <p>Get 10% Discount with <br>Email NewsLetter</p>
+                   <form action="">
+                    <i class='bx bx-envelope' ></i>
+                    <input type="email" name="" id="" placeholder="Enter your Email">
+                    <i class='bx bx-arrow-back bx-rotate-180' ></i>
+                   </form>
+                </div>
+            </div>
+        </div>
+          </section>
+    <!-- Footer end -->
+
+    <!-- Copyright start -->
+           <div class="copyright">
+            <p>&#169; CarpoolVenom All Right Reserved.</p>
+           </div>
+    <!-- Copyright end -->
+
+
+    <!-- Chatgpt code for highlight start -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const navbarLinks = document.querySelectorAll('.navbar a');
+    
+                function removeActiveClass() {
+                    navbarLinks.forEach(link => {
+                        link.classList.remove('active');
+                    });
+                }
+    
+                navbarLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        removeActiveClass();
+                        this.classList.add('active');
+                    });
+                });
+    
+                // Optional: Add the 'active' class to the 'home' link by default
+                document.querySelector('.home-action').classList.add('active');
+            });
+        </script>
+    <!-- Chatgpt code for highlight end -->
+
+
+
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+     <!--Link to JS -->
+     <script src="main.js"></script>
+
+</body>
+</html>
